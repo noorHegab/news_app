@@ -47,6 +47,7 @@ class InitialScreen extends StatelessWidget {
                           print("Tab pressed: $value");
                           cubit.changeTab(value);
                         },
+                        indicatorColor: Colors.transparent,
                         isScrollable: true,
                         tabs: sources.map((e) {
                           return Tab(
